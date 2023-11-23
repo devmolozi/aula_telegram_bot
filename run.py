@@ -12,6 +12,7 @@ async def send_welcome(message):
 
     await bot.reply_to(message, f"Seu usuário @{user_name} | Seu nome {first_name}")
 
+
 #RESPONDE SUA MENSAGEM COM A MESMA MENSAGEM
 @bot.message_handler(func=lambda message: True)
 async def echo_message(message):
